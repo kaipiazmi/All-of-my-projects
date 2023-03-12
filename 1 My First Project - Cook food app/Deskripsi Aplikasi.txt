@@ -1,0 +1,35 @@
+--------------Cook App--------------
+
+Adalah aplikasi yang dibuat melihat bahan dan resep-resep untuk masakan yang enak dan aplikasi ini tidak akan dikembangkan,
+karna agar mengingat aplikasi yang pertama kali saya buat, saya sadar masih banyak kekurangan, akan saya perbaiki di project berikutnya, 
+dibuat untuk menyelesaikan project akhir bootcamp flutter developer batch 39 Sanbercode
+
+Halaman
+1.SplashScreen
+2.Register & Login dengan Autentifikasi firebase
+3.halaman Home (masih tersedia 4 jenis resep masakan)
+4.halaman detail bahan dan cara pembuatan menggunakan rest api +(postman)
+5.halaman About me yaitu tentang developer(pembuat aplikasi yaitu saya sendiri)
+6.halaman tentang aplikasi...
+ 
+Screenshot tampilan aplikasi ada di folder UI>ScreenshotApp
+halaman detail yang menggunakan rest api makanan ada di folder makanan
+
+Link Gambar
+Telur Dadar : https://www.mrbreakfast.com/images/3007_alt1.jpg
+nasgor : https://images.app.goo.gl/ZeC54fCHE2w2SnVD9
+mie    : https://images.app.goo.gl/STgpCn879hH6fnrh9
+gado-gado : https://images.app.goo.gl/2popzNPEWzvVv6fj9
+
+api 1 detail makanan : https://636dfddc182793016f32d807.mockapi.io/foods
+api : https://636dfddc182793016f32d807.mockapi.io/foods/1
+api : https://636dfddc182793016f32d807.mockapi.io/foods/2
+api : https://636dfddc182793016f32d807.mockapi.io/foods/3
+api : https://636dfddc182793016f32d807.mockapi.io/foods/4
+
+"gambar": " ",
+"tittle": " ",
+"komposisi": " ",
+"pembuatan": " ",
+"id": " "
+

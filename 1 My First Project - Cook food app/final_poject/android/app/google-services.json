@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55321270223",
+    "project_id": "sanberfinalapp",
+    "storage_bucket": "sanberfinalapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55321270223:android:bea5568da7357aa2fc64ba",
+        "android_client_info": {
+          "package_name": "com.example.final_poject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55321270223-nmg2he0qvich8661btpkjo6l1s4pprf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD19oaWOQf565PaBbR0CJ6IJlODC4DasHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55321270223-nmg2he0qvich8661btpkjo6l1s4pprf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

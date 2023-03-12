@@ -1,0 +1,37 @@
+--------------Cook App--------------
+
+Adalah aplikasi yang dibuat melihat bahan dan resep-resep untuk masakan yang enak dan ini adalah versi 0.1 
+dan akan terus di upgrade baik dalam segi desain maupun fungsi...dibuat individu yaitu saya sendiri
+
+Halaman
+1.SplashScreen
+2.Register & Login dengan Autentifikasi firebase
+3.halaman Home (masih tersedia 4 jenis resep masakan)
+4.halaman detail bahan dan cara pembuatan menggunakan rest api +(postman)
+5.halaman About me yaitu tentang developer(pembuat aplikasi yaitu saya sendiri)
+6.halaman tentang aplikasi...
+ 
+Aplikasi belum menggunakan getx
+
+Screenshot tampilan aplikasi ada di folder UI>ScreenshotApp
+halaman detail yang menggunakan rest api makanan ada di folder makanan
+
+
+Link Gambar
+Telur Dadar : https://www.mrbreakfast.com/images/3007_alt1.jpg
+nasgor : https://images.app.goo.gl/ZeC54fCHE2w2SnVD9
+mie    : https://images.app.goo.gl/STgpCn879hH6fnrh9
+gado-gado : https://images.app.goo.gl/2popzNPEWzvVv6fj9
+
+api 1 detail makanan : https://636dfddc182793016f32d807.mockapi.io/foods
+api : https://636dfddc182793016f32d807.mockapi.io/foods/1
+api : https://636dfddc182793016f32d807.mockapi.io/foods/2
+api : https://636dfddc182793016f32d807.mockapi.io/foods/3
+api : https://636dfddc182793016f32d807.mockapi.io/foods/4
+
+"gambar": " ",
+"tittle": " ",
+"komposisi": " ",
+"pembuatan": " ",
+"id": " "
+
