@@ -1,0 +1,1 @@
+API CUACA MEDAN : https://api.openweathermap.org/data/2.5/weather?q=medan&appid=0054a84de820ae0e5459a1063934747f&units=metric&lang=Id
