@@ -67,7 +67,7 @@ class _BookmarkScreenState extends State<BookmarkScreen> {
                           borderRadius: BorderRadius.circular(10),
                           child: Image.network(
                             bookmarkedKos.imageAssets
-                                .first, // Use the first image from the list
+                                .first, // gunakan gambar pertama dari list
                             width: 80,
                             height: 100,
                             fit: BoxFit.fill,

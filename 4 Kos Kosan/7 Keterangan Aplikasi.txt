@@ -1,0 +1,25 @@
+
+Unjuk Keterampilan Kaipi Azmi - Aplikasi Kos-Kosan
+
+Link Github : https://github.com/kaipiazmi/Prakerja_Kaipi_Azmi
+
+Aplikasi ini dibuat mandiri dari 0
+Menggunakan State Management Getx pada aplikasi terdapat:
+
+1. Halaman SplashScreen ber-animasi
+
+2. Halaman Home 
+
+3. Halaman Detail Kos-Kosan dengan fitur tombol untuk menghubungi pemilik kos dengan WhatsApp
+
+4. Halaman Bookmark pada halaman ini berfungsi seutuhnya dengan menekan icon bookmark di gambar halaman home dan 
+   di halaman bookmark kita juga bisa menghapus kos yang kita tandai sebelumnya
+
+5. Halaman Setting yang berfungsi dihalaman setting hanya tombol Keluar 
+
++ dan menggunakan Navigasi Bar untuk menghubungkan halaman 
+  home-Bookmark-Setting....
+
++ Saya juga sudah memecah komponen widget di halaman home-DetailScreen dan Setting di folder Widget  
+
++ Saya juga telah melampirkan file aplikasi(siap diinstal) dan lib untuk source code
