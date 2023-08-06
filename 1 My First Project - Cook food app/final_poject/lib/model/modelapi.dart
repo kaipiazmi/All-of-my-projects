@@ -7,8 +7,8 @@ class Album {
   final String gambar;
   final String pembuatan;
   final String komposisi;
-  
-   const Album({  
+
+  const Album({
     required this.tittle,
     required this.gambar,
     required this.pembuatan,
@@ -17,7 +17,6 @@ class Album {
 
   factory Album.fromJson(Map<String, dynamic> json) {
     return Album(
-      
       tittle: json['tittle'],
       gambar: json['gambar'],
       pembuatan: json['pembuatan'],

@@ -1,28 +1,35 @@
-import 'package:final_poject/HomeScreen.dart';
-import 'package:final_poject/SplashScreen.dart';
+import 'package:final_poject/pages/LoginScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:final_poject/profile.dart';
+import 'package:final_poject/auth_manager/auth_manager.dart';
 import 'Navigation.dart';
-import 'Foods/1omelet.dart';
 
-
-Future <void> main() async{
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(const MyApp());
+  final authManager = AuthManager();
+  final user = await authManager.getCurrentUser();
+
+  runApp(
+      MyApp(initialRoute: authManager.isLoggedIn(user) ? '/home' : '/login'));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final String initialRoute;
 
-  // This widget is the root of your application.
+  MyApp({required this.initialRoute});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
- 
-      home: SplashScreen(),
+      title: 'Your App',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.blue),
+      initialRoute: initialRoute,
+      routes: {
+        '/login': (context) => LoginScreen(),
+        '/home': (context) => Navigatornya(),
+      },
     );
   }
 }
